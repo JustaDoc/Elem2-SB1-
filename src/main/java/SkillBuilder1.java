@@ -27,7 +27,6 @@ public class SkillBuilder1 {
         System.out.println("Enter wall width (feet):");
         wallWidth = input.nextDouble();
 
-
         wallArea = wallHeight * wallWidth;
         System.out.printf("Wall area: %.0f square feet\n",wallArea);
 
