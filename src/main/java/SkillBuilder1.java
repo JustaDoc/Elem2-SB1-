@@ -34,8 +34,8 @@ public class SkillBuilder1 {
         gallonsPaintNeeded = wallArea / squareFeetPerGallons;
         System.out.printf("Paint needed: %.2f gallons\n", gallonsPaintNeeded);
 
-        double pls = gallonsPaintNeeded + gallonsPerCan;
-        cansNeeded = (int)pls ;
+        double paint = gallonsPaintNeeded + gallonsPerCan;
+        cansNeeded = (int)paint;
         System.out.println("Cans needed: "+cansNeeded+ " can(s)");
     }
 }
